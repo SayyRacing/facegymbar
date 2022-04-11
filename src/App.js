@@ -1,11 +1,13 @@
+import History from './components/History';
+import SideBar from './components/SideBar';
 
-import SideBar from './SideBar';
 
 
 function App() {
   return (
     <div className="flex">
         <SideBar />
+        <History />
     </div>
   );
 }
